@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import { userSchema } from './userSchema'
+import { transactionSchema } from './transactionSchema'
+export const schemaTypes = [userSchema,transactionSchema]
