@@ -7,7 +7,7 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 // import resumecv from '../public/assets/LwandzaNzalo.pdf';
 
-const resume = () => {
+function resume () {
   return (
     <div className='w-full'>
     <div className='w-screen h-[50vh] relative'>
