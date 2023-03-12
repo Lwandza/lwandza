@@ -15,23 +15,13 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            Full Stack Developer with experience designing, developing and testing applications
-            and solutions using a range of technologies and programming languages. 
-            Responsible for designing and developing platform features, analyze current
-            product technical requirements and create standardized interfaces. 
-            Building and working on enterprise grade software systems, as part of an Agile team.
+          Full Stack Developer with experience designing, developing and testing applications and solutions using a range of technologies and programming languages. Responsible for designing and developing platform features, analyze current product technical requirements and create standardized interfaces. Building and working on enterprise grade software systems, as part of an Agile team.  
           </p>
           <p className='py-2 text-gray-600'>
-          My first exposure to programming was in 2015 ago when I started teaching myself basic html/css,
-          by mid 2016 I had started getting intereted in application development.
-          2017 I got hired as a Front-End Developer by company that dealt with application development, they usedPython, React, Angular, Ionic and Firebase as their main coding languages.
-          From starting as a Front-End Developer, I have grow my skills in both Front-End and Back-End.  
+          My first exposure to programming was in 2015 ago when I started teaching myself basic html/css, by mid 2016 I had started getting interested in application development. 2017 I got hired as a Front-End Developer by company that dealt with application development, they used Python, React, Angular, Ionic and Firebase as their main coding languages. From starting as a Front-End Developer, I have grow my skills in both Front-End and Back-End.
           </p>
           <p className='py-2 text-gray-600'>
-          In the previous company, I have worked on projects with over 10 000 users that use the application that was built by the team I was working with. 
-          I have also worked web3 applications. In web3 I have created smart contracts such as a standard ERC20 contarts as well as ERC721 contracts.
-          I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from an a REST API.
-          I have also created web3 websites that interact with smart contracts from a simple websites that displays the users info as well as staking pool websites.
+          In the previous company, I have worked on projects with over 10 000 users that use the application that was built by the team I was working with. I have also worked web3 applications. In web3 I have created smart contracts such as a standard ERC20 contracts as well as ERC721 contracts. I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from an a REST API. I have also created web3 websites that interact with smart contracts from a simple websites that displays the users info as well as staking pool websites.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
