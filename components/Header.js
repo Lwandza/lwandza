@@ -1,5 +1,5 @@
 //Dependencies
-import {useContext, useEffect, useState } from 'react'
+import React, {useContext, useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import { WalletContext} from '@/context/WalletContext';

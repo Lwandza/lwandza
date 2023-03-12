@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from 'react'
+import  React, { createContext, useEffect, useState } from 'react'
 // import { useMoralis } from 'react-moralis'
 //  
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";

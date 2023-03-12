@@ -1,6 +1,6 @@
 //Dependencies
 // import axios from 'axios'
-import {useContext, useEffect, useState } from 'react'
+import  React, {useContext, useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
@@ -50,7 +50,7 @@ const styles = {
  tableBody:"border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4",
  tableDiv:"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-pink-900 text-white",
 }
-function crypto () {
+const crypto = () => {
   const {handleAuth,isConnected,formattedAccount,currentAccount}=useContext(WalletContext)
     const { data: nativeBalance } = useEvmNativeBalance({ currentAccount });
     console.log(nativeBalance?.balance.goerli);
