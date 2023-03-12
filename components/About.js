@@ -29,7 +29,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
           In the previous company, I have worked on projects with over 10 000 users that use the application that was built by the team I was working with. 
           I have also worked web3 applications. In web3 I have created smart contracts such as a standard ERC20 contarts as well as ERC721 contracts.
-          I have created a ERC721 token that's details are updated daily using a chainlink node that I created to fetch from an a REST API.
+          I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from an a REST API.
           I have also created web3 websites that interact with smart contracts from a simple websites that displays the users info as well as staking pool websites.
           </p>
           <Link href='/#projects'>

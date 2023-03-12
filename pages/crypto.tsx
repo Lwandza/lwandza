@@ -10,8 +10,7 @@ import { signIn } from "next-auth/react";
 import { useEvmNativeBalance } from "@moralisweb3/next";
 const Moralis = require('moralis').default;
 const { EvmChain } = require('@moralisweb3/common-evm-utils');
-//Components
-import Header from '../components/Header'
+
 
 
 import { WalletContext } from '@/context/WalletContext'
@@ -74,9 +73,7 @@ const Crypto = () => {
     const [startBlock, setStartBlock] = useState("");
     const [endBlock, setEndBlock] = useState("");
     useEffect(() => {
-      console.log('current',currentDate)
-      console.log('last week',oneDaysAgo)
-      console.log('dates',dates)
+  
       if (!currentAccount) {return}
       else{
         

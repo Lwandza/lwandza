@@ -1,9 +1,9 @@
 //Dependencies
 // import axios from 'axios'
-import { useState, useContext } from 'react'
+import  React, { useState, useContext } from 'react'
 
 //Components
-import Header from '../components/Header'
+
 import Navbar from '../components/NavBar'
 import Head from 'next/head'
 import About from '../components/About'
