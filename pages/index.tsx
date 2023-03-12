@@ -4,7 +4,6 @@ import  React, { useState, useContext } from 'react'
 
 //Components
 
-import Navbar from '../components/NavBar'
 import Head from 'next/head'
 import About from '../components/About'
 import Contact from '../components/Contact'
@@ -13,9 +12,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 
 // import PortfolioChart from '../components/PortfolioChart'
-import Assets from '../components/Assets'
-import BuyTokens from '../components/BuyTokens'
-import Notice from '../components/Notice'
+
 import { WalletContext } from '@/context/WalletContext'
 //Icons
 import { BiDotsHorizontalRounded } from 'react-icons/bi'
