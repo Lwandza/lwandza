@@ -461,7 +461,7 @@ const Crypto = () => {
                   </thead>
                   <tbody>
                     {tokensTransactions.slice(0, amountOfItems).map((trans)=>(
-                        <tr>
+                        <tr key={trans.block_hash}>
                           <td className={styles.tableBody}>{(trans.block_hash).slice(0,17)}...</td>
                           <td className={styles.tableBody}>{trans.block_number}</td>
                           <td className={styles.tableBody}>{(trans.block_timestamp).replace("T", " ").slice(0,19)}</td>
@@ -503,7 +503,7 @@ const Crypto = () => {
                   </thead>
                   <tbody>
                     {tokensTransfers.slice(0, amountOfItems).map((trans)=>(
-                        <tr>
+                        <tr key={trans.transaction_hash}>
                           <td className={styles.tableBody}>{(trans.transaction_hash).slice(0,17)}...</td>
                           <td className={styles.tableBody}>{trans.block_number}</td>
                           <td className={styles.tableBody}>{(trans.block_timestamp).replace("T", " ").slice(0,19)}</td>
@@ -568,7 +568,7 @@ const Crypto = () => {
             <AiOutlinePlus className={styles.moreOptions}/>
           </div>
           {tokensList.slice(0, amountOfItems).map((items)=>(
-            <div className={styles.buyingPowerContainer}>
+            <div key={items.token_address} className={styles.buyingPowerContainer}>
               <div className={styles.buyingPowerTitle}>{items.symbol}:</div>
               <div className={styles.buyingPowerAmount}> {parseFloat(items.balance/(Math.pow(10,items.decimals))).toFixed(5)}</div>
             </div>
