@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // import AboutImg from "../assets/about.JPG"
-import AboutImg from '../public/assets/about.JPG';
+import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
