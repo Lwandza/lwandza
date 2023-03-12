@@ -4,7 +4,7 @@ import ecomme from '../public/assets/projects/ecomm.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-function ecomm () {
+function Ecomm () {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -73,4 +73,4 @@ function ecomm () {
   );
 };
 
-export default ecomm;
+export default Ecomm;
