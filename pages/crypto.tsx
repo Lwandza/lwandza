@@ -72,16 +72,6 @@ const Crypto = () => {
 
     const [startBlock, setStartBlock] = useState("");
     const [endBlock, setEndBlock] = useState("");
-    useEffect(() => {
-  
-      if (!currentAccount) {return}
-      else{
-        
-        runApp();
-      }
-      
-    }, [currentAccount])
-    
     const runApp = async () => {
       if(!Moralis.Core.isStarted){
         await Moralis.start({apiKey: "8KIbgDapUnsH9w9YiNWnEND7zhFyZBZwTcd08MxjjxVkpCWnc38A8AgQI7wt7HvR",});
@@ -277,6 +267,17 @@ const Crypto = () => {
 
     
     }
+    useEffect(() => {
+  
+      if (!currentAccount) {return}
+      else{
+        
+        runApp();
+      }
+      
+    }, [currentAccount])
+    
+  
     const runAppChange = async (change) => {
       if(!Moralis.Core.isStarted){
         await Moralis.start({apiKey: "8KIbgDapUnsH9w9YiNWnEND7zhFyZBZwTcd08MxjjxVkpCWnc38A8AgQI7wt7HvR",});
