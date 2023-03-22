@@ -2,9 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import oldwebsite from '../public/assets/projects/oldwebsite.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import cryptoImg from '../public/assets/projects/hardhat.png'
 import ecomm from '../public/assets/projects/ecomm.jpg'
 import ethereum from '../public/assets/skills/ethereum.png';
+import etherjs from '../public/assets/skills/ethersjs.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -23,16 +24,23 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={ethereum}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Staking pool and buy coffee'
+            backgroundImg={cryptoImg}
+            projectUrl='/hardhat'
+            tech='Hardhat & React'
 
           />
           <ProjectItem
             title='Ecommerce App'
             backgroundImg={ecomm}
             projectUrl='/ecomm'
+            tech='React JS'
+
+          />
+           <ProjectItem
+            title='Crypto App'
+            backgroundImg={ethereum}
+            projectUrl='/crypto'
             tech='React JS'
 
           />
