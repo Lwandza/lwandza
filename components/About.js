@@ -15,7 +15,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          Full Stack Developer with experience designing, developing and testing applications and solutions using a range of technologies and programming languages. Responsible for designing and developing platform features, analyzing current product technical requirements and creating standardized interfaces. Building and working on enterprise grade software systems, as part of an Agile team.
+          Full Stack Developer with experience designing, developing and testing applications and solutions using a range of technologies and programming languages. Responsible for designing and developing platform features, analyzing current product technical requirements and creating standardized interfaces.
           </p>
           <p className='py-2 text-gray-600'>
           My first exposure to programming was in 2015 when I started teaching myself basic html/css, by mid 2016 I had started getting interested in application development. In 2017 I got hired as a Front-End Developer by a company that dealt with application development. They used Python, React, Angular, Ionic and Firebase as their main coding languages. From starting as a Front-End Developer, I have grown my skills in both Front-End and Back-End.
