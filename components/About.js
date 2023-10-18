@@ -21,7 +21,7 @@ const About = () => {
           My first exposure to programming was in 2015 when I started teaching myself basic html/css, by mid 2016 I had started getting interested in application development. In 2017 I got hired as a Front-End Developer by a company that dealt with application development. They used Python, React, Angular, Ionic and Firebase as their main coding languages. From starting as a Front-End Developer, I have grown my skills in both Front-End and Back-End.
           </p>
           <p className='py-2 text-gray-600'>
-          In the previous company, I have worked on projects with over 100 000 users that use the application that was built by the team I was working with. I have also worked on web3 applications. In web3 I have created smart contracts such as standard ERC20 contracts as well as ERC721 contracts. I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from a REST API.
+          In the previous company, I have worked on projects with over 100 000 users. I have also worked on web3 applications. In web3 I have created smart contracts such as standard ERC20 contracts as well as ERC721 contracts. I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from a REST API.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
