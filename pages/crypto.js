@@ -21,7 +21,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 // Image
 import logo from "../assets/logocv.png"
 const styles = {
-  menuItem: 'cursor-pointer font-bold text-gray-400 hover:text-green-500 duration-300',
+  menuItem: 'cursor-pointer font-bold text-[#010127] hover:text-green-500 duration-300 text-center rounded-xl uppercase bg-gradient-to-r from-[#4c0519] to-[#c91829]',
   wrapper: 'w-screen h-screen flex flex-col ',
   mainContainer: 'w-full h-full m-auto flex mt-16 ',
   leftMain: 'flex flex-col w-3/4 h-full  p-6 overflow-y-scroll',

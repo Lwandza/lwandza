@@ -10,21 +10,21 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <h1 className='uppercase tracking-widest text-[#c91829]'>
             About
-          </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          </h1>
+          <h2 className='py-4 text-[#119da4]'>Who I Am</h2>
+          <p className='py-2 text-[#ecf0f3]'>
           Full Stack Developer with experience designing, developing and testing applications and solutions using a range of technologies and programming languages. Responsible for designing and developing platform features, analyzing current product technical requirements and creating standardized interfaces.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-[#ecf0f3]'>
           My first exposure to programming was in 2015 when I started teaching myself basic html/css, by mid 2016 I had started getting interested in application development. In 2017 I got hired as a Front-End Developer by a company that dealt with application development. They used Python, React, Angular, Ionic and Firebase as their main coding languages. From starting as a Front-End Developer, I have grown my skills in both Front-End and Back-End.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2 text-[#ecf0f3]'>
           In the previous company, I have worked on projects with over 100 000 users. I have also worked on web3 applications. In web3 I have created smart contracts such as standard ERC20 contracts as well as ERC721 contracts. I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from a REST API.
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-2 text-[#ecf0f3] underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
           </Link>

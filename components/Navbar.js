@@ -10,8 +10,8 @@ import logo from "../assets/logocv.png"
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('#010127');
+  const [linkColor, setLinkColor] = useState('#e7e7e7');
 
 
   const handleNav = () => {
