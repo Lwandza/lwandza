@@ -15,14 +15,13 @@ const About = () => {
           </h1>
           <h2 className='py-4 text-[#119da4]'>Who I Am</h2>
           <p className='py-2 text-[#ecf0f3]'>
-          Full Stack Developer with experience designing, developing and testing applications and solutions using a range of technologies and programming languages. Responsible for designing and developing platform features, analyzing current product technical requirements and creating standardized interfaces.
+         Lwandza is an IT professional who specialise in Full Stack Development. He has experience in designing, developing, and testing applications and solutions using a range of technologies and programming languages. He is responsible for designing and developing platform features, analysing current product technical requirements, and creating standardised interfaces, this include Mobile Applications development. Building and working on enterprise grade software systems, as part of an Agile team.
           </p>
           <p className='py-2 text-[#ecf0f3]'>
-          My first exposure to programming was in 2015 when I started teaching myself basic html/css, by mid 2016 I had started getting interested in application development. In 2017 I got hired as a Front-End Developer by a company that dealt with application development. They used Python, React, Angular, Ionic and Firebase as their main coding languages. From starting as a Front-End Developer, I have grown my skills in both Front-End and Back-End.
+          He has worked on projects with over 100 000 users that use the application that was built by the team he was working with. He has also worked on web3 applications. In web3 he created smart contracts such as standard ERC20 contracts as well as ERC721 contracts. He also created a DNFT token which fetches details using a chain-link node that I created to fetch from a REST API.
           </p>
           <p className='py-2 text-[#ecf0f3]'>
-          In the previous company, I have worked on projects with over 100 000 users. I have also worked on web3 applications. In web3 I have created smart contracts such as standard ERC20 contracts as well as ERC721 contracts. I have created an ERC721 token which fetches details using a chainlink node that I created to fetch from a REST API.
-          </p>
+          He has experience in the following Technologies and Tools: Angular 6+, Ionic Angular, React.js, React Native, React Hooks, Redux.js, TypeScript, Python, Django, PHP, JSON, REST APIs, HTML, Web3, JavaScript, Angular, Ionic and Firebase, Linux, Mobile Applications, Coaching.
           <Link href='/#projects'>
             <p className='py-2 text-[#ecf0f3] underline cursor-pointer'>
               Check out some of my latest projects.
