@@ -22,6 +22,7 @@ const About = () => {
           </p>
           <p className='py-2 text-[#ecf0f3]'>
           He has experience in the following Technologies and Tools: Angular 6+, Ionic Angular, React.js, React Native, React Hooks, Redux.js, TypeScript, Python, Django, PHP, JSON, REST APIs, HTML, Web3, JavaScript, Angular, Ionic and Firebase, Linux, Mobile Applications, Coaching.
+          </p>
           <Link href='/#projects'>
             <p className='py-2 text-[#ecf0f3] underline cursor-pointer'>
               Check out some of my latest projects.
